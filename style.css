@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(12, 13, 11); */
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0vh auto;
+    width: 80%;
+}
+
+h2{
+    font-size: 7vw;
+    color: rgba(232, 9, 61, 0.86);
+    background-color: rgb(27, 22, 22);
+    
+}
+
+.menu{
+    margin: 2.5vw 0;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 3.3vw;
+    margin: 1vh;
+    color: crimson;
+    background-color: rgb(17, 20, 20);
+    padding: 1vw 1vw;
+    border: 2px solid rebeccapurple;
+    border-radius: 5px;
+}
+
+.box{
+    display: flex;
+    flex-direction:row; 
+     justify-content:flex-start;
+      align-items:center;
+     flex-wrap: wrap;
+     padding: 1vw;
+    
+}
+
+  .store-item{
+    width: 25%;
+    padding: 1vw;
+}
+
+.store-item img{
+    width:90%;
+    display:block;
+    box-shadow: 7px 7px 20px rgb(0, 0,0,0.9);
+}
+
+
+/* The switch - the box around the slider */
+.switch {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 3.5em;
+    height: 2em;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  /* -------------------------------------------------------------------------------------------------------------------- */
+
+  body{
+      background-image: -webkit-linear-gradient(92deg, #3e2e2e 24%, #000000 87%);
+      background-image:    -moz-linear-gradient(92deg, #3e2e2e 24%, #000000 87%);
+      background-image:     -ms-linear-gradient(92deg, #3e2e2e 24%, #000000 87%);
+  }
+
+
+  h2{
+	font-size: 100px;
+	font-family: Impact, Charcoal, sans-serif;
+	background-image: url('./img/web2.jpg');
+	background-position: 0px 0px;
+	-webkit-animation: animatedBackground 10s linear infinite normal;
+	-webkit-box-reflect: below -44px -webkit-gradient(linear, left top, left bottom,  from(transparent), color-stop(33%, transparent), to(rgba(255, 255, 255, 0.33)));
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: #0000;
+}
+
+@-webkit-keyframes animatedBackground {
+	0% { background-position: 0 0 }
+	100% { background-position: 500px 0 }
+}
+
+
+
+
+
+
+
+
+
+body{
+    font-family: 'Poppins',sans-serif;
+
+}
+
+header{
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 300px;
+    font-size: 35px;
+}
+
+header h2{
+    color: #f0525f;
+}
+
+header span{
+    color: #eaa03f;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+}
+
+@media (max-height:800px){
+    footer{
+        position: relative;
+    }
+    header{
+        padding-top: 40px;
+    }
+}
+
+.footer-distributed{
+    background-color: rgb(22, 19, 20);
+    box-sizing: border-box;
+    widows: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 1px;
+
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-distributed .footer-left{
+    width: 30%;
+}
+
+.footer-distributed h3{
+    color: #ffff;
+    font: normal 36px 'cookie',cursive;
+}
+
+.footer-distributed h3 span{
+    color: #e0ac1c;
+}
+
+.footer-distributed .footer-links{
+    color: #ffff;
+    margin: 50px 19px 35px;
+}
+
+.footer-distributed .footer-links a{
+    display: inline-block;
+    line-height: 1rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name{
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-center{
+    width: 79px;
+    display:inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer-distributed .footer-center i{
+    background-color: #33383b;
+    color: #ffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 23px;
+    margin: 22px -22px 9px -21px;
+    vertical-align:baseline;
+    padding-top: 5px;
+   
+
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 20px;
+    
+}
+
+.footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffff;
+    vertical-align:middle;
+    margin: 0;
+    margin-left: 10px;
+   
+
+}
+
+.footer-distributed .footer-center p span{
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2rem;
+}
+
+.footer-distributed .footer-center p a{
+    color: #e0ac1a;
+    text-decoration: none;
+
+}
+
+.footer-distributed .footer-right{
+    width: 58%;
+    align-items: right;
+    text-align: right;
+    margin-left: 0;
+    justify-content: right;
+
+}
+
+.footer-distributed .footer-company-about span{
+    display: block;
+    color: #ffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 30%;
+    font-size: 25px;
+    color: #ffff;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+
+    padding-top: 5px;
+}
+
+.footer-distributed .footer-icons a:hover{
+    background-color: rgb(87, 56, 32);
+}
+
+.footer-links a:hover{
+    color: rgb(87, 56, 32);
+}
+
+@media (max-width:880px){
+    .footer-distributed .footer-links, .footer-distributed .footer-center, .footer-distributed .footer-right{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .footer-distributed .footer-center i{
+       margin-left: 0;
+    }
+}
+
+
+h3 {
+    display: block;
+    font-size: 1.176em;
+    margin-block-start: 1.1em;
+    margin-block-end: 1.1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+   
+}
+
+.footer-left h3{
+    padding-left: -60px;
+}
